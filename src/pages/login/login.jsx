@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import MobileContainer from "../../components/MobileContainer/MobileContainer";
-import "./Login.css";
+import "./login.css";
 
 function Login() {
   const navigate = useNavigate();

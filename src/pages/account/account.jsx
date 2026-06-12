@@ -1,5 +1,5 @@
 import MobileContainer from "../../components/MobileContainer/MobileContainer";
-import "./Account.css";
+import "./account.css";
 import profilePic from "../../assets/profile.jpg";
 
 function Account() {
