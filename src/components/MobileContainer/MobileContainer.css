@@ -1,0 +1,8 @@
+.mobile-container {
+  width: 375px;
+  min-height: 100vh;
+  margin: 0 auto;
+  background: #f7f8f9;
+  border-left: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+}

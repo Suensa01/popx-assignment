@@ -1,0 +1,86 @@
+.register-page {
+  min-height: 100vh;
+  padding: 30px 24px 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.register-page h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1d2226;
+  line-height: 1.2;
+  margin-bottom: 28px;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 22px;
+}
+
+.input-group label {
+  position: absolute;
+  top: -8px;
+  left: 12px;
+  background: #f7f8f9;
+  padding: 0 6px;
+  font-size: 13px;
+  color: #6c25ff;
+  font-weight: 500;
+}
+
+.input-group input {
+  width: 100%;
+  height: 42px;
+  border: 1px solid #cbcbcb;
+  border-radius: 6px;
+  padding: 0 14px;
+  font-size: 14px;
+  outline: none;
+  background: transparent;
+}
+
+.input-group input::placeholder {
+  color: #8d8d8d;
+}
+
+.agency-section {
+  margin-top: 8px;
+}
+
+.agency-section p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1d2226;
+  margin-bottom: 12px;
+}
+
+.radio-group {
+  display: flex;
+  gap: 24px;
+}
+
+.radio-option {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.radio-option input[type="radio"] {
+  accent-color: #6c25ff;
+}
+
+.register-btn {
+  margin-top: auto;
+  width: 100%;
+  height: 46px;
+  border: none;
+  border-radius: 6px;
+  background: #6c25ff;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
