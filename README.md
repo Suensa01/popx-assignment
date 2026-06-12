@@ -1,16 +1,125 @@
-# React + Vite
+# PopX React Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This project is a pixel-perfect React implementation of the PopX mobile application UI based on the provided Adobe XD design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The application consists of four screens:
 
-## React Compiler
+* Welcome Screen
+* Login Screen
+* Registration Screen
+* Account Settings Screen
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The mobile interface is centered on the webpage and navigation between screens is handled using React Router.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+* Pixel-perfect UI implementation
+* Responsive mobile-centered layout
+* React Router based navigation
+* Reusable component structure
+* Clean and organized folder structure
+* Hosted and deployable using Vercel or Netlify
+
+---
+
+## Tech Stack
+
+* React.js
+* Vite
+* React Router DOM
+* CSS3
+
+---
+
+## Project Structure
+
+src/
+
+├── assets/
+
+├── components/
+
+│ └── MobileContainer/
+
+├── pages/
+
+│ ├── Welcome/
+
+│ ├── Login/
+
+│ ├── Register/
+
+│ └── Account/
+
+├── routes/
+
+├── App.jsx
+
+├── main.jsx
+
+└── index.css
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone <repository-url>
+```
+
+Navigate to the project directory:
+
+```bash
+cd popx-assignment
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+---
+
+## Deployment
+
+The project can be deployed on:
+
+* Vercel
+* Netlify
+* GitHub Pages
+
+---
+
+## Screens Included
+
+1. Welcome Screen
+2. Login Screen
+3. Register Screen
+4. Account Settings Screen
+
+---
+
+## Author
+
+Developed as part of the PopX Frontend Assignment using React.js.
